@@ -3,7 +3,8 @@ class StartScrap
 	require 'open-uri'
 	attr_accessor :url_base
 
-	def initialize(url_base = "https://coinmarketcap.com/all/views/all/")
+	def initialize(url_base)
+	#def initialize(url_base = "https://coinmarketcap.com/all/views/all/")
 		@url_base = url_base
 	end
 	
